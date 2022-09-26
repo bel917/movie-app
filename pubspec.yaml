@@ -1,0 +1,55 @@
+name: movie
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  animated_splash_screen: ^1.0.1+2
+  modal_bottom_sheet: ^2.1.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  provider: ^6.0.3
+  http: ^0.13.5
+  shared_preferences: ^2.0.15
+  flutter_easyloading: ^3.0.5
+  flutter_swiper: ^1.1.6
+  flutter_rating_bar: ^4.0.1
+  checkbox_grouped: ^1.8.1
+  crossplat_objectid: ^3.0.0
+  barcode_widget: ^2.0.3
+  awesome_dialog: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/movies/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-Regular.ttf
+    - family: GilroySemiBold
+      fonts:
+        - asset: fonts/Gilroy-Heavy.ttf
+    - family: GilroySemi
+      fonts:
+        - asset: fonts/Gilroy-SemiBold.ttf
